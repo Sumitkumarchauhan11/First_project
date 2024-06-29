@@ -1,0 +1,113 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  background-image: url('sports.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0574fb;
+  padding: 10px 20px;
+  color: white;
+}
+
+.navbar-brand a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+.navbar-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 15px;
+}
+
+.nav-item a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.nav-item a:hover,
+.nav-item a.active {
+  background-color: #0574fb;
+}
+
+.dashboard-container {
+  padding: 20px;
+  max-width: 900px;
+  margin: 20px auto;
+  background: rgb(20, 20, 20);
+  border-radius: 10px;
+  opacity: 0.9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  background-color: #0574fb;
+}
+
+.welcome-message {
+  text-align: center;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.stats-cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #e7f7e7;
+  background-color: #c6fb05;
+  border: 1px solid ;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 25%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #0a0a0a;
+}
+
+.announcements {
+  margin-top: 40px;
+}
+
+.announcements h3 {
+  background-color: #716c70;
+}
+
+.announcements ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.announcements ul li {
+  background-color: #6c7171;
+  border: 1px solid #6c7171;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
